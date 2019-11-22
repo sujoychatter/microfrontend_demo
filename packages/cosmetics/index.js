@@ -1,5 +1,5 @@
-import { Cosmetics } from './components/Cosmetics';
-import CosmeticsImage from './images/cosmetics.jpg';
+import { Cosmetics } from './src/components/Cosmetics';
+import CosmeticsImage from './src/images/cosmetics.jpg';
 
 export const setupConfig = {
   url: '/cosmetics',

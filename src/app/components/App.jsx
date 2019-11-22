@@ -12,11 +12,11 @@ import "../css/App.css";
 import { Home } from '../../app/components/Home';
 
 import { setupConfig as booksConfig } from 'books';
-import { setupConfig as clothingConfig } from '../../clothing';
-import { setupConfig as electronicsConfig } from '../../electronics';
-import { setupConfig as foodConfig } from '../../food';
-import { setupConfig as consmeticsConfig } from '../../cosmetics';
-import { setupConfig as watchesConfig } from '../../watches';
+import { setupConfig as clothingConfig } from 'clothing';
+import { setupConfig as electronicsConfig } from 'electronics';
+import { setupConfig as foodConfig } from 'food';
+import { setupConfig as consmeticsConfig } from 'cosmetics';
+import { setupConfig as watchesConfig } from 'watches';
 
 export const allConfig = [
   booksConfig,
@@ -26,7 +26,6 @@ export const allConfig = [
   consmeticsConfig,
   watchesConfig,
 ];
-console.log(allConfig)
 
 class App extends Component{
   render(){

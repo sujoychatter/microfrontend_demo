@@ -1,5 +1,5 @@
-import { Watches } from './components/Watches';
-import WatchesImage from './images/watches.jpg';
+import { Watches } from './src/components/Watches';
+import WatchesImage from './src/images/watches.jpg';
 
 export const setupConfig = {
   url: '/watches',

@@ -1,5 +1,5 @@
-import { Electronics } from './components/Electronics';
-import ElectronicsImage from './images/electronics.jpg';
+import { Electronics } from './src/components/Electronics';
+import ElectronicsImage from './src/images/electronics.jpg';
 
 export const setupConfig = {
   url: '/electronics',

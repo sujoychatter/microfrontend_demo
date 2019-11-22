@@ -1,5 +1,5 @@
-import { Food } from './components/Food';
-import FoodImage from './images/food.jpg';
+import { Food } from './src/components/Food';
+import FoodImage from './src/images/food.jpg';
 
 export const setupConfig = {
   url: '/food',
