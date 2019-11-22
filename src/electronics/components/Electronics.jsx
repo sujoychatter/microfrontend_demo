@@ -1,6 +1,6 @@
 import React from 'react';
-import { Header } from '../../common/components/Header';
-import { Content } from '../../common/components/Content';
+import { Header } from 'common';
+import { Content } from 'common';
 import '../css/Electronics.css';
 
 export const Electronics = () => {

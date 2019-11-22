@@ -11,7 +11,7 @@ import "../css/App.css";
 
 import { Home } from '../../app/components/Home';
 
-import { setupConfig as booksConfig } from '../../books';
+import { setupConfig as booksConfig } from 'books';
 import { setupConfig as clothingConfig } from '../../clothing';
 import { setupConfig as electronicsConfig } from '../../electronics';
 import { setupConfig as foodConfig } from '../../food';
@@ -26,6 +26,7 @@ export const allConfig = [
   consmeticsConfig,
   watchesConfig,
 ];
+console.log(allConfig)
 
 class App extends Component{
   render(){
