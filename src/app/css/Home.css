@@ -1,6 +1,7 @@
 .home-wrapper {
   height: 100%;
   display: flex;
+  background: #8080806b;
 }
 .home-wrapper a {
   width: 100%;
