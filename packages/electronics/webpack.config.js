@@ -33,5 +33,19 @@ module.exports = {
     filename: "bundle.js",
     library: 'electronics',
     libraryTarget: 'umd',
+  },
+  externals: {
+    react: {
+      commonjs: 'react',
+      commonjs2: 'react',
+    },
+    'react-dom': {
+      commonjs: 'react-dom',
+      commonjs2: 'react-dom',
+    },
+    common: {
+      commonjs: 'common',
+      commonjs2: 'common',
+    },
   }
 };
