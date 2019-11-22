@@ -1,0 +1,38 @@
+{
+  "name": "microfrontend_demo",
+  "version": "1.0.0",
+  "description": "Demo for 24th Nov 2019 meetup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujoychatter/microfrontend_demo.git"
+  },
+  "author": "Sujoy Chatterjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sujoychatter/microfrontend_demo/issues"
+  },
+  "homepage": "https://github.com/sujoychatter/microfrontend_demo#readme",
+  "dependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.3.0",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
