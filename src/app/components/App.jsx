@@ -2,21 +2,14 @@ import React, { Component} from "react";
 import { HashRouter as Router, Route } from 'react-router-dom';
 import "../css/App.css";
 
-// import { Food } from '../../food/components/Food';
-// import { Electronics } from '../../electronics/components/Electronics';
-// import { Cosmetics } from '../../cosmetics/components/Cosmetics';
-// import { Books } from '../../books/components/Books';
-
-// import { Clothing } from '../../clothing/components/Clothing';
-
 import { Home } from '../../app/components/Home';
 
-import { setupConfig as booksConfig } from 'books';
-import { setupConfig as clothingConfig } from 'clothing';
-import { setupConfig as electronicsConfig } from 'electronics';
-import { setupConfig as foodConfig } from 'food';
-import { setupConfig as consmeticsConfig } from 'cosmetics';
-import { setupConfig as watchesConfig } from 'watches';
+import { setupConfig as booksConfig } from 'ms-books';
+import { setupConfig as clothingConfig } from 'ms-clothing';
+import { setupConfig as electronicsConfig } from 'ms-electronics';
+import { setupConfig as foodConfig } from 'ms-food';
+import { setupConfig as consmeticsConfig } from 'ms-cosmetics';
+import { setupConfig as watchesConfig } from 'ms-watches';
 
 export const allConfig = [
   booksConfig,
