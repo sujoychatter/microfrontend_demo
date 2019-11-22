@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server",
     "dev-packages": "lerna run --parallel --stream dev",
-    "build": "webpack"
+    "build-packages": "lerna run build",
+    "build": "yarn build-packages && webpack"
   },
   "repository": {
     "type": "git",
