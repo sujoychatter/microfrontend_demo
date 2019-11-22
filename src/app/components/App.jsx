@@ -16,13 +16,15 @@ import { setupConfig as clothingConfig } from '../../clothing';
 import { setupConfig as electronicsConfig } from '../../electronics';
 import { setupConfig as foodConfig } from '../../food';
 import { setupConfig as consmeticsConfig } from '../../cosmetics';
+import { setupConfig as watchesConfig } from '../../watches';
 
 export const allConfig = [
   booksConfig,
   clothingConfig,
   electronicsConfig,
   foodConfig,
-  consmeticsConfig
+  consmeticsConfig,
+  watchesConfig,
 ];
 
 class App extends Component{
