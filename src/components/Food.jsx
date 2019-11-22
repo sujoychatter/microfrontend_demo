@@ -1,11 +1,12 @@
 import React from 'react';
 import { Header } from './Header';
 import { Content } from './Content';
+import '../css/Food.css';
 
 export const Food = () => {
 
   function renderContent() {
-    return <div>Food section</div>
+    return <div className='food'>Food section</div>
   }
 
   return <div>

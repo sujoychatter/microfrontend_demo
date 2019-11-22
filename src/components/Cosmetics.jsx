@@ -1,11 +1,12 @@
 import React from 'react';
 import { Header } from './Header';
 import { Content } from './Content';
+import '../css/Cosmetics.css';
 
 export const Cosmetics = () => {
 
   function renderContent() {
-    return <div>Cosmetics section</div>
+    return <div className='cosmetics'>Cosmetics section</div>
   }
 
   return <div>
