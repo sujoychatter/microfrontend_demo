@@ -2,11 +2,11 @@ import React, { Component} from "react";
 import { HashRouter as Router, Route } from 'react-router-dom';
 import "../css/App.css";
 
-import { Food } from './Food';
-import { Electronics } from './Electronics';
-import { Cosmetics } from './Cosmetics';
-import { Books } from './Books';
-import { Home } from './Home';
+import { Food } from '../../food/components/Food';
+import { Electronics } from '../../electronics/components/Electronics';
+import { Cosmetics } from '../../cosmetics/components/Cosmetics';
+import { Books } from '../../books/components/Books';
+import { Home } from '../../app/components/Home';
 
 class App extends Component{
   render(){

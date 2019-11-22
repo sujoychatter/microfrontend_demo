@@ -1,6 +1,6 @@
 import React from 'react';
-import { Header } from './Header';
-import { Content } from './Content';
+import { Header } from '../../common/components/Header';
+import { Content } from '../../common/components/Content';
 import '../css/Books.css';
 
 export const Books = () => {
